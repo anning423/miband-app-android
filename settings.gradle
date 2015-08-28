@@ -1,0 +1,3 @@
+include ':app'
+include ':miband-sdk'
+project(':miband-sdk').projectDir = new File(settingsDir, '../miband-sdk-android/miband-sdk')
